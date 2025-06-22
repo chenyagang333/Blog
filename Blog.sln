@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.AspNetCore.Blog", "src\Yagang.AspNetCore.Blog\Yagang.AspNetCore.Blog.csproj", "{85B10782-1B53-492C-AED3-65BC0E39EC59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FF3445E-2A26-4A34-B9A5-C54583AE45CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3408408C-CCBD-410F-8D7F-2EF0FEBC0531}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ED156810-2084-4D5E-AF65-7D7994CDD3F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.AspNetCore.Blog.EntityFrameworkCore", "src\Yagang.AspNetCore.Blog.EntityFrameworkCore\Yagang.AspNetCore.Blog.EntityFrameworkCore.csproj", "{241F5641-884B-4070-9FDB-4A2A8A491A84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.Extensions.Blog.Core", "src\Yagang.Extensions.Blog.Core\Yagang.Extensions.Blog.Core.csproj", "{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.Extensions.Blog.Stores", "src\Yagang.Extensions.Blog.Stores\Yagang.Extensions.Blog.Stores.csproj", "{530C3CBE-211F-4791-9BF3-B400C7328573}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{530C3CBE-211F-4791-9BF3-B400C7328573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{530C3CBE-211F-4791-9BF3-B400C7328573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{530C3CBE-211F-4791-9BF3-B400C7328573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{530C3CBE-211F-4791-9BF3-B400C7328573}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{85B10782-1B53-492C-AED3-65BC0E39EC59} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
+		{241F5641-884B-4070-9FDB-4A2A8A491A84} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
+		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
+		{530C3CBE-211F-4791-9BF3-B400C7328573} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
+	EndGlobalSection
+EndGlobal
