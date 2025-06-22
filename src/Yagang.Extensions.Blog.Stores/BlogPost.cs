@@ -1,5 +1,9 @@
 ﻿namespace Yagang.Extensions.Blog.Stores;
 
+/// <summary>
+/// 博客表
+/// </summary>
+/// <typeparam name="TKey"></typeparam>
 public class BlogPost<TKey> where TKey : IEquatable<TKey>
 {
     /// <summary>

@@ -40,12 +40,4 @@ public class BlogAttachment<TKey> where TKey : IEquatable<TKey>
     /// 附件的创建时间
     /// </summary>
     public virtual DateTimeOffset CreatedAt { get; set; }
-
-    /// <summary>
-    /// 附件的排列顺序
-    /// </summary>
-    /// <remarks>
-    /// 当一个博客有多个附件时，可以通过这个属性来控制附件的排列顺序。
-    /// </remarks>
-    public virtual ushort Order { get; set; }
 }
