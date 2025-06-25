@@ -3,19 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.AspNetCore.Blog", "src\Yagang.AspNetCore.Blog\Yagang.AspNetCore.Blog.csproj", "{85B10782-1B53-492C-AED3-65BC0E39EC59}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3FF3445E-2A26-4A34-B9A5-C54583AE45CF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{3408408C-CCBD-410F-8D7F-2EF0FEBC0531}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ED156810-2084-4D5E-AF65-7D7994CDD3F4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.AspNetCore.Blog.EntityFrameworkCore", "src\Yagang.AspNetCore.Blog.EntityFrameworkCore\Yagang.AspNetCore.Blog.EntityFrameworkCore.csproj", "{241F5641-884B-4070-9FDB-4A2A8A491A84}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Blog", "Blog", "{AEE28877-D435-4957-8617-1EEEED27E941}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.Extensions.Blog.Core", "src\Yagang.Extensions.Blog.Core\Yagang.Extensions.Blog.Core.csproj", "{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.AspNetCore.Blog", "src\Blog\Yagang.AspNetCore.Blog\Yagang.AspNetCore.Blog.csproj", "{5B4A7DC9-67D4-48A2-8C87-F9873AF8DD8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.Extensions.Blog.Stores", "src\Yagang.Extensions.Blog.Stores\Yagang.Extensions.Blog.Stores.csproj", "{530C3CBE-211F-4791-9BF3-B400C7328573}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.AspNetCore.Blog.EntityFrameworkCore", "src\Blog\Yagang.AspNetCore.Blog.EntityFrameworkCore\Yagang.AspNetCore.Blog.EntityFrameworkCore.csproj", "{7692DCB2-8CCD-4DA5-8798-91BAF35C3D38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.Extensions.Blog.Core", "src\Blog\Yagang.Extensions.Blog.Core\Yagang.Extensions.Blog.Core.csproj", "{3F184A74-78B7-47AB-9966-65B3BAEA76CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Yagang.Extensions.Blog.Stores", "src\Blog\Yagang.Extensions.Blog.Stores\Yagang.Extensions.Blog.Stores.csproj", "{C0BB7F2F-C7CE-420A-ABBD-2E9834546A42}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,30 +25,31 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{85B10782-1B53-492C-AED3-65BC0E39EC59}.Release|Any CPU.Build.0 = Release|Any CPU
-		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{241F5641-884B-4070-9FDB-4A2A8A491A84}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{530C3CBE-211F-4791-9BF3-B400C7328573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{530C3CBE-211F-4791-9BF3-B400C7328573}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{530C3CBE-211F-4791-9BF3-B400C7328573}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{530C3CBE-211F-4791-9BF3-B400C7328573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B4A7DC9-67D4-48A2-8C87-F9873AF8DD8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B4A7DC9-67D4-48A2-8C87-F9873AF8DD8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B4A7DC9-67D4-48A2-8C87-F9873AF8DD8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B4A7DC9-67D4-48A2-8C87-F9873AF8DD8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7692DCB2-8CCD-4DA5-8798-91BAF35C3D38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7692DCB2-8CCD-4DA5-8798-91BAF35C3D38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7692DCB2-8CCD-4DA5-8798-91BAF35C3D38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7692DCB2-8CCD-4DA5-8798-91BAF35C3D38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F184A74-78B7-47AB-9966-65B3BAEA76CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F184A74-78B7-47AB-9966-65B3BAEA76CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F184A74-78B7-47AB-9966-65B3BAEA76CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F184A74-78B7-47AB-9966-65B3BAEA76CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0BB7F2F-C7CE-420A-ABBD-2E9834546A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0BB7F2F-C7CE-420A-ABBD-2E9834546A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0BB7F2F-C7CE-420A-ABBD-2E9834546A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0BB7F2F-C7CE-420A-ABBD-2E9834546A42}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{85B10782-1B53-492C-AED3-65BC0E39EC59} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
-		{241F5641-884B-4070-9FDB-4A2A8A491A84} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
-		{0ECAE9DA-AF29-4874-9E45-A0213B32DFEE} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
-		{530C3CBE-211F-4791-9BF3-B400C7328573} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
+		{AEE28877-D435-4957-8617-1EEEED27E941} = {3FF3445E-2A26-4A34-B9A5-C54583AE45CF}
+		{5B4A7DC9-67D4-48A2-8C87-F9873AF8DD8D} = {AEE28877-D435-4957-8617-1EEEED27E941}
+		{7692DCB2-8CCD-4DA5-8798-91BAF35C3D38} = {AEE28877-D435-4957-8617-1EEEED27E941}
+		{3F184A74-78B7-47AB-9966-65B3BAEA76CC} = {AEE28877-D435-4957-8617-1EEEED27E941}
+		{C0BB7F2F-C7CE-420A-ABBD-2E9834546A42} = {AEE28877-D435-4957-8617-1EEEED27E941}
 	EndGlobalSection
 EndGlobal

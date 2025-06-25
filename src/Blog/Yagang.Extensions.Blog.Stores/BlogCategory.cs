@@ -17,11 +17,6 @@ public class BlogCategory<TKey> where TKey : IEquatable<TKey>
     public virtual required string Name { get; set; }
 
     /// <summary>
-    /// 分类的描述
-    /// </summary>
-    public virtual string? Description { get; set; }
-
-    /// <summary>
     /// 分类的创建时间
     /// </summary>
     public virtual DateTimeOffset CreatedAt { get; set; }
