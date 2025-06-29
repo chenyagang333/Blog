@@ -1,9 +1,9 @@
-﻿namespace Yagang.Extensions.Blog.Stores;
+﻿namespace Yagang.AspNetCore.Blog;
 
 /// <summary>
 /// 博客表
 /// </summary>
-/// <typeparam name="TKey"></typeparam>
+/// <typeparam name="TKey">主键类型</typeparam>
 public class BlogPost<TKey> where TKey : IEquatable<TKey>
 {
     /// <summary>
@@ -29,12 +29,12 @@ public class BlogPost<TKey> where TKey : IEquatable<TKey>
     /// <summary>
     /// 博客的类型
     /// </summary>
-    public virtual required string Type { get; set; }
+    public virtual BlogPostType Type { get; set; }
 
     /// <summary>
     /// 博客的状态
     /// </summary>
-    public virtual required string Status { get; set; }
+    public virtual BlogPostStatus Status { get; set; }
 
     /// <summary>
     /// 博客的创建时间
@@ -50,32 +50,10 @@ public class BlogPost<TKey> where TKey : IEquatable<TKey>
     /// 博客的发布时间
     /// </summary>
     public virtual DateTimeOffset? PublishedAt { get; set; }
-
-    /// <summary>
-    /// 博客的浏览👁次数
-    /// </summary>
-    public virtual int ViewCount { get; set; }
-
-    /// <summary>
-    /// 博客的点赞👍次数
-    /// </summary>
-    public virtual int LikeCount { get; set; }
-
-    /// <summary>
-    /// 博客的收藏★次数
-    /// </summary>
-    public virtual int FavoriteCount { get; set; }
-
-    /// <summary>
-    /// 博客的分享次数
-    /// </summary>
-    public virtual int ShareCount { get; set; }
-
-    /// <summary>
-    /// EF Core的并发令牌
-    /// </summary>
-    public byte[]? RowVersion { get; set; }
 }
+
+
+
 
 
 

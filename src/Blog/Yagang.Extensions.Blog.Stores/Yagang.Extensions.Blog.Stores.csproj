@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Yagang.Extensions.Blog.Core\Yagang.Extensions.Blog.Core.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,4 +1,4 @@
-﻿namespace Yagang.Extensions.Blog.Stores;
+﻿namespace Yagang.AspNetCore.Blog;
 
 /// <summary>
 /// 表示博客表与 标签/话题 表之间的关联。

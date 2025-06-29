@@ -1,4 +1,4 @@
-﻿namespace Yagang.Extensions.Blog.Stores;
+﻿namespace Yagang.AspNetCore.Blog;
 
 /// <summary>
 /// 博客附件表
